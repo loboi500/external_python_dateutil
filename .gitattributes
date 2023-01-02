@@ -1,6 +1,5 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
-
 # Specify what's text and should be normalized
 *.py text
 *.in text
@@ -11,8 +10,30 @@
 *.json text
 *.bat text
 *.sh text
-RELEASING text
-
+RELEASING filter=lfs diff=lfs merge=lfs -text
 # NEWS and Windows batch files should be crlf
-NEWS eol=crlf
+NEWS filter=lfs diff=lfs merge=lfs -text
 *.bat eol=crlf
+AUTHORS.md filter=lfs diff=lfs merge=lfs -text
+changelog.d filter=lfs diff=lfs merge=lfs -text
+codecov.yml filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_APACHE2 filter=lfs diff=lfs merge=lfs -text
+release.py filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+README.rst filter=lfs diff=lfs merge=lfs -text
+requirements-dev.txt filter=lfs diff=lfs merge=lfs -text
+appveyor.yml filter=lfs diff=lfs merge=lfs -text
+ci_tools filter=lfs diff=lfs merge=lfs -text
+dateutil filter=lfs diff=lfs merge=lfs -text
+docs filter=lfs diff=lfs merge=lfs -text
+MANIFEST.in filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+setup.py filter=lfs diff=lfs merge=lfs -text
+updatezinfo.py filter=lfs diff=lfs merge=lfs -text
+pyproject.toml filter=lfs diff=lfs merge=lfs -text
+setup.cfg filter=lfs diff=lfs merge=lfs -text
+tox.ini filter=lfs diff=lfs merge=lfs -text
+zonefile_metadata.json filter=lfs diff=lfs merge=lfs -text

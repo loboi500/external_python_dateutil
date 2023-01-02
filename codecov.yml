@@ -1,9 +1,3 @@
-coverage:
-  status:
-    patch: false
-    changes: false
-    project:
-      default:
-        target: '80'
-
-comment: false
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b8da762686ef54a4b53050f31c1509ae86f06cad207727b88ea25313aab4907
+size 120

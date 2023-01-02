@@ -1,25 +1,3 @@
-{
-    "metadata_version": 2.0,
-    "releases_url": [
-        "https://dateutil.github.io/tzdata/tzdata/",
-        "ftp://ftp.iana.org/tz/releases/"
-    ],
-    "tzdata_file": "tzdata2018i.tar.gz",
-    "tzdata_file_sha512": "6afcacb377842190648ed26f01abcf3db37aa2e7c63d8c509c29b4bc0078b7ff2d4e5375291b9f53498215b9e2f04936bc6145e2f651ae0be6d8166d8d336f6a",
-    "tzversion": "2018i",
-    "zonegroups": [
-        "africa",
-        "antarctica",
-        "asia",
-        "australasia",
-        "europe",
-        "northamerica",
-        "southamerica",
-        "pacificnew",
-        "etcetera",
-        "systemv",
-        "factory",
-        "backzone",
-        "backward"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5245207c39d928ea42a27a2708890829f0831e0d8c7cacb64b2e2a70d6f85c25
+size 671

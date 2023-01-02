@@ -1,4 +1,3 @@
-include LICENSE NEWS zonefile_metadata.json updatezinfo.py pyproject.toml
-recursive-include dateutil/test *
-global-exclude __pycache__
-global-exclude *.py[co]
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bf2f0d048b1084c38c606274875735231349f509306bd24c85b86e49a5960c8
+size 159
